@@ -1,0 +1,36 @@
+# Segredos
+.env
+
+# Ambientes virtuais
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Binários de wake word
+*.ppn
+*.pv
+*.onnx
+models/vosk-model-*/
+
+# Memória local e bancos SQLite do usuário
+data/memory.json
+data/persona.json
+data/friends.json
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Frontend HUD (Node/Vite/Tauri)
+ren-hud/node_modules/
+ren-hud/dist/
+ren-hud/src-tauri/target/
+
+# Logs e cobertura
+*.log
+.coverage
+
